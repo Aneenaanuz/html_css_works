@@ -1,0 +1,37 @@
+
+.row{
+    background-color: skyblue;
+    border:1px solid black;
+    
+}
+.row-1,.row-4{
+    width:80%;
+    margin:auto;
+    height:100px;
+    margin-top:50px;
+
+}
+.row-2{
+    width:300px;
+    height:100px;
+    margin-top:20px;
+
+}
+.row-3{
+    width:300px;
+    height:100px;
+    margin-top:20px;
+
+}
+@media (max-width:750px) {
+    .row{
+        width:80%;
+        background-color: yellowgreen;
+        margin:auto;
+        margin-top: 20px;
+
+
+    }
+    
+    
+}
